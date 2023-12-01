@@ -1,0 +1,89 @@
+.background-whole-page{
+    background-color: black;
+    color: white;
+}
+.main {color: red; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+.internal-link{
+    font-size:110%;
+    color: red;
+}
+.external-link{
+    font-size:75%;
+    color: white;
+}
+.element-left{
+    border: 1px red solid;
+    float: left;
+    margin:2%;
+    margin-top:auto;
+    padding:2%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    width: 40%;
+    text-align: justify;
+}
+.element-right{
+    border: 1px red solid;
+    float: right;
+    margin:2%;
+    margin-top:auto;
+    margin-bottom: auto;
+    padding:2%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    width: 40%;
+}
+h2 {color:rgb(189, 57, 57);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3 {color:rgb(189, 57, 57);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h4 {color:rgb(189, 57, 57);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 2%;
+}
+p {font-family: Arial, Helvetica, sans-serif;}
+ul {font-family: Arial, Helvetica, sans-serif;
+    color: pink;
+}
+ol {font-family: Arial, Helvetica, sans-serif;
+    color:salmon;
+}
+
+.grid-container{
+    display:grid;
+    grid-template-areas:
+        'header header header logo'
+        'menu menu menu menu';
+    border:white 1px solid;
+    gap: 2%;
+    background-color: white;
+    margin: 1%;
+    padding: 0.1%;
+    height:100%
+}
+.grid-header{
+    border: 1px red solid;
+    grid-area: header;
+    background-color: black;
+
+}
+.grid-header-logo{
+    border: 1px red solid;
+    grid-area: logo;
+    background-color: black;
+
+}
+.grid-container-navigation{
+
+    grid-template-areas: menu;
+    border:white 1px solid;
+    background-color: red;
+}
